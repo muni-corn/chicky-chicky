@@ -23,12 +23,13 @@ Biomes
 
 ## Tables
 
-Biomes are determined by a three-dimensional random function
+Biomes are determined by a three separate random functions
 of base elevation, temperature, and humidity.
 
 ### Negative base elevation
 
-All elevations below 0 are oceans.
+All elevations below 0 are oceans. If temperature is low enough, oceans may be
+ice flats.
 
 ### Shores (very low elevation)
 
